@@ -76,7 +76,7 @@ export const Register = () => {
           <button className='button'>Sign Up</button>
           {err && <span>Something went wrong</span>}
         </form>
-        <p>You donot have an account?<Link to="/Login">Login</Link></p>
+        <p>You do have an account?<Link to="/Login">Login</Link></p>
       </div>
     </div>
   )
